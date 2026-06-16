@@ -1,0 +1,8 @@
+| ID | Critério                                       | Verificação Objetiva                                                                                                                                                                        |
+| -- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| C1 | Assertions específicas                         | Todo `it` contém pelo menos uma assertion ligada diretamente à regra de negócio validada. O teste é reprovado se utilizar apenas `toBeDefined`, `toBeTruthy`, `toBeFalsy` ou `not.toThrow`. |
+| C2 | Isolamento de dependências externas            | Nenhum teste realiza chamadas reais de rede. Todas as integrações externas utilizam MSW, spies ou stubs. O teste deve executar de forma determinística em ambiente local e CI.              |
+| C3 | Dados de teste representativos                 | Os dados utilizados refletem cenários reais do domínio da aplicação. Perguntas, chunks e respostas esperadas devem vir de fixtures reutilizáveis sempre que possível.                       |
+| C4 | Cobertura de comportamento e regras de negócio | O teste valida explicitamente o comportamento esperado e as regras de negócio associadas. Para componentes de IA, deve validar também os guardrails relevantes ao cenário.                  |
+| C5 | Estrutura e legibilidade                       | O teste segue o padrão Arrange / Act / Assert, possui apenas um comportamento principal e permite identificar rapidamente o objetivo do cenário testado.                                    |
+d
