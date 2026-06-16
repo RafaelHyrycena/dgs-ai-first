@@ -5,4 +5,3 @@
 | C3 | Dados de teste representativos                 | Os dados utilizados refletem cenários reais do domínio da aplicação. Perguntas, chunks e respostas esperadas devem vir de fixtures reutilizáveis sempre que possível.                       |
 | C4 | Cobertura de comportamento e regras de negócio | O teste valida explicitamente o comportamento esperado e as regras de negócio associadas. Para componentes de IA, deve validar também os guardrails relevantes ao cenário.                  |
 | C5 | Estrutura e legibilidade                       | O teste segue o padrão Arrange / Act / Assert, possui apenas um comportamento principal e permite identificar rapidamente o objetivo do cenário testado.                                    |
-d
