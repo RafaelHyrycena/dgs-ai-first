@@ -45,10 +45,7 @@ Além disso, o teste utiliza `toBeDefined()`, que é uma assertion extremamente 
 
 ### Impacto
 
-**Severidade:** Alta
-
 É um teste de baixa qualidade porque valida apenas que "algo" foi retornado, mas não confirma se esse "algo" atende ao comportamento esperado.
-
 
 ---
 
@@ -102,8 +99,6 @@ Ou seja, o endpoint pode estar completamente quebrado para consultas reais e est
 ---
 
 ### Impacto
-
-**Severidade:** Média
 
 É um teste útil, mas insuficiente quando utilizado isoladamente.
 
@@ -163,8 +158,6 @@ O teste não valida:
 ---
 
 ### Impacto
-
-**Severidade:** Alta
 
 O teste mascara defeitos reais de integração e não garante que a funcionalidade principal do endpoint esteja funcionando.
 
