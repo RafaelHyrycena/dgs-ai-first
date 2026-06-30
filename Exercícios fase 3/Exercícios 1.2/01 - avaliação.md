@@ -170,5 +170,3 @@ Dos três testes analisados:
 * **Teste 1** apresenta assertions vagas e não valida as regras de negócio.
 * **Teste 2** cobre apenas validação de entrada e possui baixa cobertura funcional.
 * **Teste 3** utiliza um mock desconectado da implementação real e ainda emprega Jest em um projeto baseado em Vitest.
-
-Como consequência, a suíte de testes pode indicar que a aplicação está saudável mesmo quando funcionalidades críticas estão incorretas ou quebradas. Para aumentar a confiabilidade dos testes, é necessário utilizar assertions específicas, dados representativos do domínio NovaTech, mocks corretamente integrados e validações que confirmem o comportamento esperado da aplicação, e não apenas sua execução.
